@@ -6,6 +6,6 @@ function getFormvalue() {
 	const fname=form.fname.value.trim();
 	const lname=form.lname.value.trim();
 
-	alert('${fname} ${lname}');
+	alert(`${fname} ${lname}`);
 
 }
